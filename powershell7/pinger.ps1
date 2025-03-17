@@ -1,7 +1,7 @@
 # Bypass execution policy for the session (No manual setup required)
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 
-# Function to ping the website
+
 function Ping-Website {
     param (
         [string]$url
